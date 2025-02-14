@@ -9,7 +9,8 @@ A simple 2D flight simulator made with **Python** and **Pygame**, featuring smoo
 -  **Optimized for Performance** (Runs smoothly with FPS control)
 
 ## Screenshot
-(Upload an image of the game and paste the link here)
+![Screenshot 2025-02-13 020309](https://github.com/user-attachments/assets/71212624-8c23-445a-be3d-4d2734668479)
+
 
 ## Installation & Running
 1. **Clone this repository**:
