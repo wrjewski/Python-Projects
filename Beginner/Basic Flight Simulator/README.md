@@ -16,4 +16,13 @@ A simple 2D flight simulator made with **Python** and **Pygame**, featuring smoo
    ```bash
    git clone https://github.com/your-username/basic-flight-simulator.git
    cd basic-flight-simulator
+2. **Install Dependencies**:
+   ```bash
+   pip install pygame
+3. **Run the game**:
+   ```bash
+   python main.py
 
+## Controls
+-  **Arrow Keys: Move aircraft (Left, Right, Up, Down)
+-  **Esc: Quit the game
