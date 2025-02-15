@@ -9,9 +9,7 @@ A real-time **PID controller simulation** for aircraft altitude stabilization, b
 -  **Customizable Flight Physics** – Modify thrust, drag, and control response.
 
 ## Screenshot
-![PID Controller GUI](![Screenshot 2025-02-15 001542](https://github.com/user-attachments/assets/315a4eba-c17f-4739-8981-7eddc6af54e6)
-)  
-*(Replace `image.png` with an actual screenshot of your GUI.)*
+(![Screenshot 2025-02-15 001542](https://github.com/user-attachments/assets/315a4eba-c17f-4739-8981-7eddc6af54e6)
 
 ---
 
