@@ -15,7 +15,7 @@ A simple 2D flight simulator made with **Python** and **Pygame**, featuring smoo
 ## Installation & Running
 1. **Clone this repository**:
    ```bash
-   git clone https://github.com/your-username/basic-flight-simulator.git
+   git clone https://github.com/wrjewski/basic-flight-simulator.git
    cd basic-flight-simulator
 2. **Install Dependencies**:
    ```bash
