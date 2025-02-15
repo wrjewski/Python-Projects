@@ -16,7 +16,7 @@ A real-time **PID controller simulation** for aircraft altitude stabilization, b
 ## Installation & Running
 1. **Clone this repository**:
    ```bash
-   git clone https://github.com/your-username/autopilot-pid-controller.git
+   git clone https://github.com/wrjewski/autopilot-pid-controller.git
    cd autopilot-pid-controller
 2. **Install dependencies**:
    ```bash
