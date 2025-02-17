@@ -14,18 +14,6 @@ Turtle Graphics Simulation of the rocket
 
 Graph Plotting with Matplotlib
 
-## Installation
-
-Ensure you have Python installed. Then, install the necessary dependencies:
-
-pip install numpy matplotlib
-
-## Usage
-
-Run the script using:
-
-python PID_Video.py
-
 ## Input Parameters:
 
 Starting Altitude: Initial height of the rocket.
@@ -45,10 +33,13 @@ A Turtle Simulation of the Rocket's Motion
 ## Graphs Explained
 
 Altitude Graph: Shows how the rocket ascends and stabilizes.
+![Screenshot 2025-02-17 025830](https://github.com/user-attachments/assets/c8f1d1a7-895a-4d71-a29b-390fe6a2aec1)
+![Screenshot 2025-02-17 025847](https://github.com/user-attachments/assets/c2acd4ba-3c9b-45a8-937f-275ca78684f4)
 
 Thrust Graph: Displays the force applied over time.
 
 PID Error Graph: Breaks down the Proportional, Integral, and Derivative errors in real time.
+![Screenshot 2025-02-17 025853](https://github.com/user-attachments/assets/d59e7787-7d57-462f-ac7f-6177299851eb)
 
 ## Customization
 
