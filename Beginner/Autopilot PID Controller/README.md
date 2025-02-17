@@ -1,38 +1,67 @@
-# Autopilot PID Controller with Real-Time GUI
+# Rocket Flight PID Controller
 
-A real-time **PID controller simulation** for aircraft altitude stabilization, built with **Python, Tkinter, and Matplotlib**.
+## Overview
 
-## Features
--  **Real-Time PID Tuning** – Adjust `Kp`, `Ki`, `Kd`, and Thrust **live** without restarting.
--  **Dynamic Visualization** – See how altitude and throttle input change over time.
--  **Smooth Updates** – The simulation auto-refreshes every 0.5s for instant feedback.
--  **Customizable Flight Physics** – Modify thrust, drag, and control response.
+This project simulates a rocket's ascent using a PID (Proportional-Integral-Derivative) Controller to reach a target altitude. The controller adjusts thrust dynamically to stabilize at the desired setpoint, mimicking real-world rocket launches where engines cut off once the altitude goal is reached.
 
-## Screenshot
-(![Screenshot 2025-02-15 001542](https://github.com/user-attachments/assets/315a4eba-c17f-4739-8981-7eddc6af54e6)
+## Features:
 
----
+PID Control for Altitude Stabilization
 
-## Installation & Running
-1. **Clone this repository**:
-   ```bash
-   git clone https://github.com/wrjewski/autopilot-pid-controller.git
-   cd autopilot-pid-controller
-2. **Install dependencies**:
-   ```bash
-   pip install matplotlib
-3. **Run the simulation**:
-   ```bash
-   python main.py
+Real-time Visualization (Altitude, Thrust, and PID errors)
 
-## How it works
-1. **PID Controler Adjustments**:
-  -  **Kp (Proportional Gain): Controls how aggressively altitude is corrected.
-  -  **Ki (Integral Gain): Fixes steady-state error over time.
-  -  **Kd (Derivative Gain): Dampens overshoot and stabilizes responses.
-  -  **Thrust Factor: Adjusts power available for altitude correction.
-2. **Matplotlib Visualization**:
-  -  **Top Graph: Altitude vs Time
-  -  **Bottom Graph: Throttle (Control Input) vs Time
-3. **Matplotlib Visualization**:
-  -  **Move the sliders and watch the aircraft's altitude response change in real-time.
+Turtle Graphics Simulation of the rocket
+
+Graph Plotting with Matplotlib
+
+## Installation
+
+Ensure you have Python installed. Then, install the necessary dependencies:
+
+pip install numpy matplotlib
+
+## Usage
+
+Run the script using:
+
+python PID_Video.py
+
+## Input Parameters:
+
+Starting Altitude: Initial height of the rocket.
+
+Target Altitude: Desired altitude where the thrust cuts off.
+
+Thrust Power: Determines the force applied to counteract gravity.
+
+PID Tuning Values: Adjustments for smooth ascent control.
+
+## Output:
+
+A Graph Displaying Rocket Altitude, Thrust, and PID Errors
+
+A Turtle Simulation of the Rocket's Motion
+
+## Graphs Explained
+
+Altitude Graph: Shows how the rocket ascends and stabilizes.
+
+Thrust Graph: Displays the force applied over time.
+
+PID Error Graph: Breaks down the Proportional, Integral, and Derivative errors in real time.
+
+## Customization
+
+Modify PID Gains (**, **, ``) in the script to see different flight behaviors.
+
+Adjust Gravity and Thrust to simulate different planetary conditions.
+
+## License
+
+This project is open-source and available under the MIT License.
+
+## Acknowledgments
+
+Inspired by aerospace engineering principles and real-world rocket stabilization methods.
+
+Developed as an educational tool for understanding PID controllers in flight systems.
